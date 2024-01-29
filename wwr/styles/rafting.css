@@ -50,17 +50,22 @@ h1{
 
 
 article {
-    block-size: 200%;
+    block-size: 100%;
     width: 10%;
-    height: 100%;
-    top :100%;
+    height: 0;
+    left: 18%;
+    right:1000%;
+    top :500px;
+    bottom: 1000px;
     background-color:#7c99ce;
-    background-size: 900%;
+    font-size: 14px;
+    padding: 350px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    text-align: left;
+    opacity:.7;
     position:absolute ;
 }
 
-article img{
-    width:10%;
-    height:100%;
-    position:absolute;
-}
+
+
