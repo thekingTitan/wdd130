@@ -68,5 +68,15 @@ article {
     
 }
 
+header,nav{
+    grid-area: header, nav;
+    background-color: rgb(145, 145, 181);
+    padding: 25px;
+}
+nav{
+    display: flex;
+    text-align: right;
+}
+
 
 
