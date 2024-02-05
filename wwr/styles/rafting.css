@@ -79,7 +79,12 @@ nav{
     padding: 25px;
     display: flex;
     text-align: right;
+    float: right;
+    
 }
+
+
+
 
 
 
