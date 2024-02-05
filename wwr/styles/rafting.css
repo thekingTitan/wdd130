@@ -68,12 +68,15 @@ article {
     
 }
 
-header,nav{
-    grid-area: header, nav;
+header{
+    grid-area: header;
     background-color: rgb(145, 145, 181);
     padding: 25px;
 }
 nav{
+    grid-area: nav;
+    background-color: rgb(145, 145, 181);
+    padding: 25px;
     display: flex;
     text-align: right;
 }
