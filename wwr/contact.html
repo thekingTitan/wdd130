@@ -31,11 +31,23 @@
  </div> 
  <img src="https://img.freepik.com/free-photo/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait_1163-5134.jpg?w=826&t=st=1707754623~exp=1707755223~hmac=d38ccc46ee7035d82d6b60ab9882e7588f23e9cd4a86b7ff1e67d9c8fb3b19ce" alt="happy looking employees">    
  <!--html form--> 
-<form method=" post">
+<form id="form">
     <h4>please enter your username :</h4>
     <input type="text" name="username">
     <h4> your email adress:</h4>
     <input type="text" name="email">
+
+    <p id=form-prompt> what is the purpose of your message?</p>
+    <input type="radio" id="general" name="inquiries" value=" general">
+    <label for=" general"> general inquiry</label><br>
+    <input type="radio" id="reservation" name="inquiries" value=" reservation">
+    <label for=" reservation"> reservation question </label><br>
+    <input type="radio" id="website" name="inquiries" value="website">
+    <label for="website"> website suggestions</label><br>
+    <label for="message"> message</label><br>
+    <textarea rows="6" name="message" id="message"></textarea>
+    <div><button type="submit"> submit</button></div>
+
 </form>
              
     </main>
