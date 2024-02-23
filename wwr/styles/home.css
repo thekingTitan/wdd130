@@ -1,0 +1,107 @@
+/* Add your styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* Styles for header */
+}
+
+main {
+    /* Styles for main content */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+newsletter {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.call-to-action {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-link:hover {
+    background-color: #218838;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
