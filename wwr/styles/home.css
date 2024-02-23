@@ -7,34 +7,31 @@ body {
 }
 
 header {
-    header {
-        background-color: #333;
-        color: white;
-        padding: 10px 20px;
-        text-align: center;
-    }
-    
-    header h1 {
-        margin: 0;
-        font-size: 2rem;
-    }
-    
-    header nav {
-        margin-top: 10px;
-    }
-    
-    header nav a {
-        color: white;
-        text-decoration: none;
-        margin: 0 10px;
-        padding: 5px 10px;
-        border-radius: 5px;
-    }
-    
-    header nav a:hover {
-        background-color: #555;
-    }
-    
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    background-color: #555;
 }
 
 main {
@@ -132,3 +129,4 @@ button:hover {
     height: auto;
     border-radius: 5px;
 }
+
